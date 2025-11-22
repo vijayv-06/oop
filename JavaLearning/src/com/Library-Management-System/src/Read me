@@ -1,0 +1,130 @@
+📚 Library Management System — Mini Project (Unit 1)
+📌 Objective
+
+To integrate Object-Oriented Programming (OOP) concepts, Collections Framework, and Exception Handling into a single cohesive command-line Java application.
+
+This mini-project demonstrates practical usage of classes, objects, inheritance, collections, custom exceptions, file handling, and user-driven menu-based interaction.
+
+📖 Project Description
+
+The Library Management System allows users to:
+
+Add new books to the library
+
+Register members
+
+Issue books to members
+
+Return books
+
+Calculate late fees using custom exceptions
+
+Maintain all books using a HashMap
+
+Log every operation (add, issue, return) into a text file
+
+🔹 Core Classes:
+1. Book
+
+Represents a book with attributes like:
+
+Book ID
+
+Title
+
+Author
+
+Availability status
+
+2. Member
+
+Represents a library member with:
+
+Member ID
+
+Name
+
+List of borrowed books
+
+3. Library
+
+Handles main operations:
+
+Add a book
+
+Issue a book
+
+Return a book
+
+Calculate late fees
+
+Manage collections using HashMap<Integer, Book>
+
+Throw custom exceptions for invalid operations
+
+🛠️ Technologies Used
+
+Java (OOP Concepts)
+
+Collections Framework (HashMap, ArrayList)
+
+Exception Handling (Custom Exceptions)
+
+File Handling (Logging to text file)
+
+Command-line Input (Scanner)
+
+📂 Project Structure
+/LibraryManagementSystem
+│
+├── src
+│   ├── Book.java
+│   ├── Member.java
+│   ├── Library.java
+│   ├── Main.java
+│   ├── LateFeeException.java
+│
+├── logs
+│   └── operations.txt
+│
+└── README.md
+
+▶️ How to Compile and Run
+Step 1: Navigate to the src folder
+cd src
+
+Step 2: Compile all Java files
+javac *.java
+
+Step 3: Run the program
+java Main
+
+🧪 Features Demonstrated
+Feature	Description
+OOP Concepts	Classes, objects, constructors, encapsulation
+Collections	HashMap for book inventory, lists for members
+Custom Exceptions	LateFeeException for overdue books
+File Handling	Logging all actions to operations.txt
+Menus & Input Handling	User-friendly command-line interface
+🖼️ UML Class Diagram
+
+(Attach your UML diagram image here)
+
+Example:
+
+Book <---- Library ----> Member
+
+📸 Sample Output Screenshot
+
+(Insert your screenshot here)
+
+👨‍💻 Developed By
+
+Vijay V
+Computer Science and Engineering
+Mohamed Sathak A.J College of Engineering
+
+If you want, I can also create:
+✔ A PDF version of this README
+✔ A more detailed UML diagram
+✔ A professional GitHub repository structure
